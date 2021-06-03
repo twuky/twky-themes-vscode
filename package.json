@@ -1,0 +1,46 @@
+{
+	"name": "twkythemes",
+	"displayName": "Twky Theme Pack",
+	"description": "tuckies themes",
+	"version": "0.0.1",
+	"publisher": "tuckie",
+	"author": {
+		"name": "tuckie",
+		"email": "hey@tuckie.zone"
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"homepage": "",
+	"engines": {
+		"vscode": "^1.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"Themes",
+		"Dark Theme",
+		"color-theme"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Twky Slimey",
+				"uiTheme": "vs-dark",
+				"path": "./themes/twky-slimey-color-theme.json"
+			},
+			{
+				"label": "The Glow Pt 2",
+				"uiTheme": "vs",
+				"path": "./themes/the-glow-part-2-color-theme.json"
+			},
+			{
+				"label": "Chill Watermelon",
+				"uiTheme": "vs-dark",
+				"path": "./themes/twky-chill-melon-color-theme.json"
+			}
+		]
+	}
+}
